@@ -1,0 +1,506 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+.body{
+    color:#333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN w3',"メイリオ",sans-serif;
+    font-weight:bold;
+}
+
+/* .title{
+  position: absolute;
+  width: 100%;
+} */
+.title{
+    position: relative;
+    width: auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item>a {
+    margin: 0 0 0 30px;
+    font-size: 21px;
+    color: black;
+}
+.big{
+    position: absolute;
+    /*絶対配置*/
+    color: white;
+    /*文字は白に*/
+    font-weight: bold;
+        /*太字に*/
+        /* font-size: 2em; */
+        /*サイズ2倍*/
+        font-family: Quicksand, sans-serif;
+        font-size: 40px;
+    top: 50%;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+.short{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    font-size: 20px;
+    color: white;
+    font-size: 30px;       
+}
+
+.header {
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 1200px;
+}
+.nav-item{
+    margin: 0px 0px 0px 50px;
+} 
+.nav-item>a{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+.main{
+    transform: translate(0 100);
+
+}
+/*----------------- about-------------------- */
+.about{
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    transform: translate(0px 1000px);
+}
+.about__1{
+    padding: 60px 0px 80px;
+    position: relative;
+    transform: translate(0 1000px);
+}
+.about__2{
+    margin: 0px 0px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+}
+.about__3{
+    margin: 0px 0px 60px;
+    font-size: 18px;
+    font-weight: normal;
+}
+.about__4{
+    margin: 0px 0px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.about__5{
+    margin: 0px 0px 40px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.about__6{
+    margin: 0px 0px 40px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.about__7{
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.about__8{
+    margin: 0px 0px 80px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+/* .about__9{
+    display: flex;
+    height: 80px;
+    margin-right: 0.1px;
+    margin-bottom: 15px;   
+} */
+/* .about__10{
+    width: 1300px;
+} */
+/* .about__11{
+    width: 33.333%;
+    justify-content: center;
+    align-items: center;
+} */
+.about_wrapper {
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+}
+.picture_list {
+    display: flex;
+    width: 1200px;
+}
+
+.about_pic {
+    width: 300px;
+}
+.text_center{
+    text-align: center;
+}
+
+/* -----------about------------------ */
+
+/* --------------course------------------- */
+h2{
+    font-size: 24px;
+}
+.course{
+    width: 560px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+.course__1{
+    margin: 60px 0px 30px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.course__2{
+    margin: 0px 0px 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.course__3{
+    margin: 0px 0px 60px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.course__4{
+   
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.course__5{
+    /* margin: 0px 0px 120px;
+     */
+    margin: 20px 0 0 0;
+    width: 430px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: normal;
+    /* white-space: pre-wrap; */
+    text-align: left;
+    
+
+}
+.part1 {
+    display: flex;
+    justify-content: space-between;
+}
+.part1 .right {
+    margin: 120px 120px 0 50px;
+    width: 430px;
+}
+.part1 .left {
+    margin: 120px 50px 0 120px;
+    width: 430px;
+}
+.course_move{
+    transform: translate(-280px);
+
+}
+
+/* -----------course-------------- */
+
+/* ------------news--------------- */
+.news{
+    /* width: 560px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news__1{
+    color: rgb(240, 240, 29);
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 60px 0px 30px;
+}
+.news__2{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0px 0px 60px;
+}
+.news__day{
+    margin: 30px 0px 24px;
+    font-size: 18px;
+    font-weight: normal;
+    white-space: pre-wrap;
+    text-align: start;
+}
+.news__open{
+    margin: 0px 0px 60px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    /* white-space: pre-wrap; */
+    text-align: left;
+    
+}
+.news_ul {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+.news_li {
+    width: 300px;
+    margin: 0 15px 0 15px;
+}
+        
+/* .news_wrapper {
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news {
+    width: 1200px;
+}
+
+
+
+
+
+.date {
+    margin: 15px 0 0 0;
+}
+
+.news_comment {
+    margin: 24px 0 0 0;
+    line-height: 2;
+} */
+
+/* --------------news--------------------- */
+/* ----------more--------------- */
+.more{
+
+    margin: 0px 0px 60px;
+    font-size: 18px;
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* padding: 0.6em 2em; */
+    /* margin: 0 0 1em; */
+    background-color: rgb(251, 251, 30);
+    color: #fff;
+    /* cursor: pointer; */
+    /* transition: all 0.3s ease 0s; */
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.more:hover {
+    opacity: 0.6;
+}
+.more:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* ------------more-------------- */
+
+/* --------------access------------ */
+
+.access{
+    width: 560px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+.access__1{
+     margin: 120px 0px 30px;
+}
+.access__2{
+     margin: 0px 0px 60px;
+     font-size: 16px;
+     font-weight: lighter;
+}
+.access__3{
+    margin: 30px 0px 0px;
+    line-height: 50px;
+    white-space: pre-wrap;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+    transform: translate(450px);
+}
+.acess_map {
+    width: 100%;
+    margin: 60px 0 0 60px;
+    max-width: 100%;
+    height: 50;
+}
+.access_move{
+    transform: translate(-300px);
+}
+/* ---------access------------- */
+
+/* -------------contact------------- */
+.contact{
+    width: 560px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+.contact__1{
+    margin: 10px 0px 20px;
+}
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact__2{
+    line-height: 30px;
+    white-space: pre-wrap;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* -----------contact---------- */
+
+/* -------------form----------- */
+
+.form__1{
+     font-size: 16px;
+     font-weight: normal;
+     line-height: 30px;
+     text-align: left;     
+}
+.form__3{
+    width: 328px;
+    height: 36px;
+    color: #bfbfbf;
+    margin: 0px 0px 32px; 
+    font-size: 1.6rem;
+    border: solid 1px #c9c9c9;
+    padding: 5px; 
+    /* white-space: pre-wrap; */
+}
+    
+/* }チーズアカデミーを知ったきっかけ */
+.form__4{
+    /* margin: 0px 0px 0px 150px; */
+    width: 328px;
+    height: 36px;
+}
+.form__5{
+    white-space: pre-wrap;
+}
+.form__6{
+    margin: 0px 0px 0px 100px;
+    line-height: 60px;
+    /* white-space: pre-wrap; */
+}
+/* }志望動機チェックボックス */
+.form__7{
+    white-space: pre-wrap;
+    /* margin: 0 0px 20 0; */
+}
+/* 詳細 */
+.form__2{
+        margin: 0px 0px 0px 150px;
+        width: 328px;
+        height: 150px;
+}
+.form__8{
+    /* margin: 30px 0px 60px; */
+    font-size: 18px;
+    background-color: rgb(251, 251, 30);
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    margin: 30px 140px;
+}
+.form__8:hover {
+    opacity: 0.6;
+}
+
+.form__8:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.form_title{
+    width: 152px;
+    margin: 0 20px 0 0;
+    font-weight: bold;
+    text-align: right;
+    white-space: pre-wrap;
+    padding: 8px;
+}
+/* .form_title.check-radio{
+    padding: 0;
+} */
+/* .form_item {
+    width: 400px;
+    text-align: left;
+} */
+
+
+/* ------------form------------- */
+
+.copy{
+    background-color: #707070;
+    font-size: 18px;
+    /* text-align: center; */
+    padding: 30px 0px ;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    position: absolute;
+    display: block;
+    width: 1500px;
+    margin: 140px 0px;
+
+}
+
+
+
+.title img {
+    width: 100%;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
